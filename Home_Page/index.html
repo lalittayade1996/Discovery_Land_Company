@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="../Home_Page/home.js"></script>
+</head>
+
+<body style="background-color: white"></body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+<header>
+    <div class="header">
+        <video class="video"
+            src="https://player.vimeo.com/external/536055631.hd.mp4?s=7f6a254bdf972674127e5909312fa5de8b8d2453&amp;profile_id=174&amp;download=1"
+            data-length="" muted="" loop="" autoplay="" playsinline=""></video>
+        <!-- <video src="../assects/DLC\ web\ hero\ 1.5min\ organized\ by\ property.mov.mp4"></video> -->
+        <!-- FOR SECTION - 1 (HEADER) -->
+        <!-- <div class="container"> -->
+        <div class="navbar">
+            <div><a href="../About DLC/index.html">About DLC</a></div>
+            <div><a href="../Our World/index.html">Our World</a></div>
+            <div><a href="../Experiences/index.html">Experiences</a></div>
+            <div><a href="../Gallery/gallary.html">Gallery</a></div>
+            <div><a href="../Press/index.html">Press</a></div>
+        </div>
+        <div class="gallery" >
+            <div style="opacity: 100%;font-size: 220%; line-height: 50pt; text-align: justify;">
+            Discover</div>
+            <div style="opacity: 70%;font-size: 225%; line-height: 70pt; text-align: justify;">
+                your world
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- WELCOME SECTION -->
+<div class="welcome">
+    <div class="text">
+        <div id="texta">
+            <h1><b>Welcome to</b></h1>
+            <h1 style="font-size: 300%; line-height: 10pt; text-align: justify; ">our world</h1>
+        </div>
+        <div id="textb" style="opacity: 70%; font-size: 110%; line-height: 26pt"><b>
+                Discover the unique atmosphere of our private <br>
+                residential club communities. Once experienced. Never <br>
+                forgotten. This is classic, comfortable, mordern living in <br>
+                nature's most spectacular settings worldwide. <br>
+                reassuringly exclusive. Generously Welcoming. Find <br>
+                your unique world - place where families love to be; <br>
+                creating unforgettable moments, together.</b>
+        </div>
+        <div id="img"></div>
+    </div>
+    <div class="photo"></div>
+</div>
+<!-- Land Of Discovery -->
+<!-- CAROUSEL SECTION -->
+<div class="partcarousel">
+    <div class="para1">
+        <h1></h1>
+    </div>
+    <div class="bootstrap">
+        <!-- <div class="bootstrap1"></div> -->
+        <div class="carouselContainer">
+            <div id="carouselExampleIndicators" class="carousel slide" >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="../assects/gallery img11.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="../assects/gallery img8.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="../assects/gallery img9.jpg" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="../assects/gallery img10.jpg" alt="Third slide">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="bootstrap2"></div>
+    </div>
+    <div class="buttons">
+        <button id="leftbutton" href="#carouselExampleIndicators" data-slide="prev" style="height: 100%; width : 100%;">
+            &#8592
+        </button>
+        <button id="rightbutton" href="#carouselExampleIndicators" data-slide="next" style="height: 100%; width : 100%;">
+            &#8594
+        </button>
+    </div>
+
+
+    <!-- JS-SECTION -->
+    <div class="innerpart">
+        <div class="line1">
+            <div id="temperature" >
+                <!-- xxx -->
+            </div>
+            <div id="wind" >
+                <!-- xxx -->
+            </div>
+            <div id="direction" >
+                <!-- xxx -->
+            </div>
+        </div>   
+        <div class="line2">
+            <div id="info">
+             <!-- xxx -->
+            </div>
+            <div id="desc">
+              <!-- xxx   -->
+            </div>
+        </div> 
+        <div class="line3">
+            <div id="location" >
+               <!-- xxx -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- CARDS SECTION -->
+<div class="row1">
+    <div class="image" id="image1">
+        <div class="text1">Experience</div>
+    </div>
+    <div class="image" id="image2">
+        <div class="text1">Lifestyle</div>
+    </div>
+    <div class="image" id="image3">
+        <div class="text1">Wellness</div>
+    </div>
+</div>
+<!-- <div class="text1">
+        <div id="text" >Experiences</div>
+        <div id="text" >Lifestyle</div>
+        <div id="text" >Wellness</div>
+    </div> -->
+<footer>
+    <div class="footer">
+        <div class="footerlogo"><img src="DiscoveryLogo-1.jpg" alt="footer-logo"></div>
+        <div class="part-1">
+            <div class="section">Get in Touch</div><br>
+            <div class="section">(480)624-5200</div><br>
+            <div class="section"><u>mail@discoverylandco.com</u></div>
+        </div>
+        <div class="part-2">
+            <div class="section">About DLC</div><br>
+            <div class="section">Our Worlds</div><br>
+            <div class="section">Experiences</div><br>
+            <div class="section">Gallary</div><br>
+            <div class="section">Press</div>
+        </div>
+        <div class="part-3">
+            <div class="section">Magazine</div><br>
+            <div class="section">Careers</div><br>
+            <div class="section">Foundation</div><br>
+            <div class="section">Company</div><br>
+            <div class="section">Contact</div><br>
+            <div class="section">Privacy</div>
+        </div>
+    </div>
+
+</footer>
+
+
+</body>
+
+</html>
