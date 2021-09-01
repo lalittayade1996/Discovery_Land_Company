@@ -1,0 +1,449 @@
+
+/* SECTION-Header */
+*{
+    padding: 0;
+    margin: 0;
+}
+.video{
+     object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.header{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.logo{
+    /* color: white; */
+   flex-grow: 0.3;
+}
+.navbar{
+    /* border: 5px solid orange; */
+    width: 50%;
+    margin-left: 40%;
+    /* margin-top: 5%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 18px;
+    /* overflow: hidden; */
+    /* border: 2px solid greenyellow; */
+    position:relative;
+    bottom: 93%;
+    color: white ;
+}
+.gallery{
+    /* border: 4px solid red; */
+    height: 30%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 23%;
+    margin-top: 0%;
+    position: relative;
+    /* left: 40%; */
+    bottom: 69%;
+    /* font:caption; */
+    color: white;
+    font-size: 35px;
+    font-style: normal;
+}
+/* I-Pad */
+@media only screen and (min-width: 768px) {
+    header{
+        border: 7px solid red;
+        /* height: 100vh;
+        width: 100vw; */
+    }
+    .information{
+        border: 7px solid greenyellow;
+        /* height: 100vh;
+        width: 100vw; */
+    }
+    .container1{
+        border: 3px solid purple;
+    }
+    .paragraph{
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SECTION-1 */
+.information{
+    /* border: 4px solid greenyellow; */
+    color: black;
+    display: flex;
+    /* background-color: white; */
+    height: 50vh;
+    width: 80vw;
+    margin-left: 10%;
+    font-size: 30px;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    /* margin-top: 5%; */
+}
+/* SECTION-2 */
+.container1{
+    /* border: 10px solid orangered; */
+    /* margin-top: 5%; */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.image{
+    /* border: 4px solid green; */
+    /* display: flex; */ 
+    height: 100%;
+    width: 50%;
+   
+}
+.picture{
+    /* border: 10px solid mediumvioletred; */
+    height: 90%;
+    width: 80%;
+    /* display: flex; */
+    background-image: url(../assects/experiencesimg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 6%;
+    margin-top: 5%;
+}
+
+.paragraph{
+    height: 80%;
+    width: 40%;
+    /* border: 4px solid blue; */
+    display: flex;
+   margin-top: 5%;
+}
+.lines{
+    /* border: 10px solid brown; */
+    height: 80%;
+    width: 80%;
+    /* display: flex; */
+    flex-direction: column;
+    /* margin-top: 20%; */
+}
+.line1{
+    /* border: 4px solid red; */
+    margin-left: 34%;
+    margin-top: 8%;
+}
+.line2{
+    /* border: 4px solid red; */
+    margin-left: 34%;
+    height: 55%;
+    width: 100%;
+    font-size: 17px;
+    margin-top: 8%;
+    /* object-fit: contain; */
+}
+
+ /* SECTION-3 */
+.part{
+    border: 1px solid lightgrey;
+    background-color:rgb(241, 245, 247);
+    height: 420vh;
+    width: 100vw;
+    margin-top: 5%;
+}
+/* ------------------------ */
+.part1{
+    /* border: 7px solid red; */
+    height: 117vh;
+    width: 100vw;
+    margin-top: 7%;
+}
+#photo1{
+    /* border: 3px solid gray; */
+    background-color: lightgrey;
+    height: 30vh;
+    width: 60vw;
+    left: 17.5%;
+    margin-top: 41%;
+    position: absolute;
+}
+#photo2{
+    /* border: 3px solid purple; */
+    height: 110vh;
+    width: 74%;
+    position: absolute;
+    background-image: url(../assects/experiencesimg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#photo3{
+    /* border: 3px solid aqua; */
+    background-color: white;
+    height: 72vh;
+    width: 35vw;
+    left: 55.5%;
+    margin-top: 8%;
+    position: absolute;
+}
+.box{
+    border: 1px solid white;
+    height: 90%;
+    width: 70%;
+    margin-left: 12%;
+    margin-top: 9%;
+}
+#title{
+    /* border: 3px solid darkorchid; */
+    height: 10%;
+    width: 100%;
+    margin-top: 25%;
+}
+#descreption{
+    border: 1px solid white;
+    height: 40%;
+    width: 100%;
+    margin-top: 10%;
+}
+#button1{
+    /* border: 3px solid olive; */
+    height: 10%;
+    width: 30%;
+    /* margin-left: 5%;
+    /* margn-right: 20%; */ 
+    /* left: 50%; */
+   
+}
+/* ---------------------- */
+
+.part2{
+    /* border: 7px solid peru; */
+    height: 117vh;
+    width: 100vw;
+    margin-top: 7%;
+}
+#photo4{
+    /* border: 3px solid gray; */
+    background-color: lightgrey;
+    height: 30vh;
+    width: 60vw;
+    left: 24%;
+    margin-top: 41%;
+    position: absolute;
+}
+#photo5{
+    /* border: 3px solid purple; */
+    height: 110vh;
+    width: 74%;
+    position: absolute;
+    background-image: url(../assects/experiencesimg3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 27%;
+}
+#photo6{
+    /* border: 3px solid aqua; */
+    background-color: white;
+    height: 72vh;
+    width: 35vw;
+    left: 10%;
+    margin-top: 8%;
+    position: absolute;
+}
+.box{
+    /* border: 5px solid black; */
+    height: 90%;
+    width: 70%;
+    margin-left: 12%;
+    margin-top: 9%;
+}
+#title{
+    /* border: 3px solid darkorchid; */
+    height: 10%;
+    width: 100%;
+    margin-top: 18%;
+}
+#descreption{
+    /* border: 3px solid darkturquoise; */
+    height: 40%;
+    width: 100%;
+    margin-top: 10%;
+}
+#button1{
+    /* border: 3px solid olive; */
+    height: 10%;
+    width: 30%;
+    margin-left: 40%;
+   
+}
+/* ------------------------------------------------- */
+
+.part3{
+    /* border: 7px solid darkorange; */
+    height: 117vh;
+    width: 100vw;
+    margin-top: 7%;
+}
+#photo1{
+    /* border: 3px solid gray; */
+    background-color: lightgrey;
+    height: 30vh;
+    width: 60vw;
+    left: 17.5%;
+    margin-top: 41%;
+    position: absolute;
+}
+#photo7{
+    /* border: 3px solid purple; */
+    height: 110vh;
+    width: 74%;
+    position: absolute;
+    background-image: url(../assects/experiencesimg4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#photo3{
+    /* border: 3px solid aqua; */
+    background-color: white;
+    height: 72vh;
+    width: 35vw;
+    left: 55.5%;
+    margin-top: 8%;
+    position: absolute;
+}
+.box{
+    /* border: 5px solid black; */
+    height: 90%;
+    width: 70%;
+    margin-left: 12%;
+    margin-top: 9%;
+}
+#title{
+    /* border: 3px solid darkorchid; */
+    height: 10%;
+    width: 100%;
+    margin-top: 18%;
+}
+#descreption{
+    /* border: 3px solid darkturquoise; */
+    height: 40%;
+    width: 100%;
+    margin-top: 10%;
+}
+#button1{
+    /* border: 3px solid olive; */
+    height: 10%;
+    width: 30%;
+    margin-left: 40%;
+   
+}
+
+/* SECTION-4 */
+.ourworlds{
+    border: 1px solid white;
+    height: 70vh;
+    width: 100vw;
+    background-image: url(../assects/experiencesimg5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* FOOTER SECTION */
+.footer{
+    /* border: 4px solid purple; */
+    /* margin-top: 50px; */
+    /* padding: auto; */
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color:white;
+    font-size: 20px;
+    /* position: relative; */
+    /* position:sticky; */
+    background-color: #161f1e; ;
+    /* background-position-y: top; */
+}
+.part-1{
+    margin-top: 10%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+   
+}
+.part-2{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.part-3{
+    margin-top: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerlogo{
+     margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* I-Pad */
+@media (max-width: 768px) {
+    header{
+        border: 7px solid red;
+        /* height: 100vh;
+        width: 100vw; */
+    }
+    .information{
+        border: 7px solid greenyellow;
+        /* height: 100vh;
+        width: 100vw; */
+    }
+    .container1{
+        border: 3px solid purple;
+        flex-direction: row;
+    }
+    .paragraph{
+
+    }
+}
+
+
+/* 
+@media screen and (max-width: 600px) {
+    .footer{
+        b
+    }
+  } */
