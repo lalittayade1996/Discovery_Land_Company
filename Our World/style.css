@@ -1,0 +1,735 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    border: 4px solid black;
+    height: 30vh;
+    width: 100vw;
+}
+.container{
+    margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        color: white;
+        font-size: 25px;
+        overflow: hidden;
+}
+.logo{
+    
+   flex-grow: 0.3;
+}
+.navbar{
+    width: 50%;
+    margin-left: 40%;
+    margin-top: 1%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 25px;
+        overflow: hidden;
+        color: white ;
+}
+
+
+
+
+.row1{
+    /* border: 5px solid red; */
+    display: flex;
+    height: 30vh;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-around;
+    /* position: absolute; */
+}
+.imagea{
+    margin: 5px black;
+    background-image: url(../assects/ourworldimg1.jpg);
+    height: 100%;
+    width: 24%;
+    background-position: center;
+}
+.imageb{
+    border: 5px black;
+    background-image: url(../assects/ourworldimg2.jpg);
+    height: 100%;
+    width: 24%;
+    background-position: center;
+}
+.imagec{
+    border: 5px black;
+    background-image: url(../assects/ourworldimg3.jpg);
+    height: 100%;
+    width: 24%;
+    background-position: center;
+}
+.imaged{
+    border: 5px black;
+    background-image: url(../assects/ourworldimg4.jpg);
+    height: 100%;
+    width: 24%;
+    background-position: center;
+}
+
+.container1{
+    /* border: 4px solid blue;   */
+    margin-top: 5px black; 
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: hidden;
+}
+.text1{
+    border: 20px solid black;
+    background: black;
+    height: 99%;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 70%;
+    font-family: 'Times New Roman', Times, serif; 
+    align-items:flex-start;
+    justify-content: start;
+}
+.text2{
+    border: 20px solid black;
+    background: black;
+    height: 99%;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 70%;
+    font-family: 'Times New Roman', Times, serif; 
+    align-items: flex-start;
+    justify-content: start;
+}
+.text3{
+    border: 20px solid black;
+    background: black;
+    height: 99%;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 70%;
+    font-family: 'Times New Roman', Times, serif; 
+    align-items:flex-start;
+    justify-content: start;
+}
+.text4{
+    border: 20px solid black;
+    background: black;
+    height: 99%;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 70%;
+    font-family: 'Times New Roman', Times, serif; 
+    align-items: flex-start;
+    justify-content: start;
+}
+
+
+.row2{
+    /* border: 5px solid red; */
+    display: flex;
+    height: 30vh;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-around;
+    /* position: absolute; */
+}
+.imagee{
+    margin: 5px black;
+    background-image: url(../assects/ourworldimg5.jpg);
+    height: 100%;
+    width: 24%;
+    background-position: center;
+}
+.imagef{
+    border: 5px black;
+    background-image: url(../assects/ourworldimg6.jpg);
+    height: 100%;
+    width: 24%;
+    background-position: center;
+}
+.imageg{
+    border: 5px black;
+    background-image: url(../assects/ourworldimg7.jpg);
+    height: 100%;
+    width: 24%;
+    background-position: center;
+}
+.imageh{
+    border: 5px black;
+    background-image: url(../assects/ourworldimg8.jpg);
+    height: 100%;
+    width: 24%;
+    background-position: center;
+}
+
+.container2{
+    /* border: 4px solid blue;   */
+    margin-top: 5px black; 
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: hidden;
+}
+/* .text1{
+    border: 4px solid black;
+    background: black;
+    height: 99%;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 70%;
+    font-family: 'Times New Roman', Times, serif; 
+    align-items:flex-start;
+    justify-content: start;
+}
+.text2{
+    border: 4px solid black;
+    background: black;
+    height: 99%;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 70%;
+    font-family: 'Times New Roman', Times, serif; 
+    align-items: flex-start;
+    justify-content: start;
+}
+.text3{
+    border: 4px solid black;
+    background: black;
+    height: 99%;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 70%;
+    font-family: 'Times New Roman', Times, serif; 
+    align-items:flex-start;
+    justify-content: start;
+}
+.text4{
+    border: 4px solid black;
+    background: black;
+    height: 99%;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 70%;
+    font-family: 'Times New Roman', Times, serif; 
+    align-items: flex-start;
+    justify-content: start;
+} */
+
+
+
+.row3{
+    /* border: 5px solid red; */
+    display: flex;
+    height: 30vh;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-around;
+    /* position: absolute; */
+}
+.imagei{
+    margin: 5px black;
+    background-image: url(../assects/ourworldimg9.jpg);
+    height: 100%;
+    width: 24%;
+    background-position: center;
+}
+.imagej{
+    border: 5px black;
+    background-image: url(../assects/ourworldimg10.jpg);
+    height: 100%;
+    width: 24%;
+    background-position: center;
+}
+.imagek{
+    border: 5px black;
+    background-image: url(../assects/ourworldimg11.jpg);
+    height: 100%;
+    width: 24%;
+    background-position: center;
+}
+.imagel{
+    border: 5px black;
+    background-image: url(../assects/ourworldimg12.jpg);
+    height: 100%;
+    width: 24%;
+    background-position: center;
+}
+
+.container3{
+    /* border: 4px solid blue;   */
+    margin-top: 5px black; 
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: hidden;
+}
+/* .text1{
+    border: 4px solid black;
+    background: black;
+    height: 99%;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 70%;
+    font-family: 'Times New Roman', Times, serif; 
+    align-items:flex-start;
+    justify-content: start;
+}
+.text2{
+    border: 4px solid black;
+    background: black;
+    height: 99%;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 70%;
+    font-family: 'Times New Roman', Times, serif; 
+    align-items: flex-start;
+    justify-content: start;
+}
+.text3{
+    border: 4px solid black;
+    background: black;
+    height: 99%;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 70%;
+    font-family: 'Times New Roman', Times, serif; 
+    align-items:flex-start;
+    justify-content: start;
+}
+.text4{
+    border: 4px solid black;
+    background: black;
+    height: 99%;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 70%;
+    font-family: 'Times New Roman', Times, serif; 
+    align-items: flex-start;
+    justify-content: start;
+} */
+
+
+.row4{
+    /* border: 5px solid red; */
+    display: flex;
+    height: 30vh;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-around;
+    /* position: absolute; */
+}
+.imagem{
+    margin: 5px black;
+    background-image: url(../assects/ourworldimg13.jpg);
+    height: 100%;
+    width: 24%;
+    background-position: center;
+}
+.imagen{
+    border: 5px black;
+    background-image: url(../assects/ourworldimg14.jpg);
+    height: 100%;
+    width: 24%;
+    background-position: center;
+}
+.imageo{
+    border: 5px black;
+    background-image: url(../assects/ourworldimg15.jpg);
+    height: 100%;
+    width: 24%;
+    background-position: center;
+}
+.imagep{
+    border: 5px black;
+    background-image: url(../assects/ourworldimg16.jpg);
+    height: 100%;
+    width: 24%;
+    background-position: center;
+}
+
+.container4{
+    /* border: 4px solid blue;   */
+    margin-top: 5px black; 
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: hidden;
+}
+/* .text1{
+    border: 4px solid black;
+    background: black;
+    height: 99%;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 70%;
+    font-family: 'Times New Roman', Times, serif; 
+    align-items:flex-start;
+    justify-content: start;
+}
+.text2{
+    border: 4px solid black;
+    background: black;
+    height: 99%;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 70%;
+    font-family: 'Times New Roman', Times, serif; 
+    align-items: flex-start;
+    justify-content: start;
+}
+.text3{
+    border: 4px solid black;
+    background: black;
+    height: 99%;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 70%;
+    font-family: 'Times New Roman', Times, serif; 
+    align-items:flex-start;
+    justify-content: start;
+}
+.text4{
+    border: 4px solid black;
+    background: black;
+    height: 99%;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 70%;
+    font-family: 'Times New Roman', Times, serif; 
+    align-items: flex-start;
+    justify-content: start;
+} */
+
+
+
+.row5{
+    /* border: 5px solid red; */
+    display: flex;
+    height: 30vh;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-around;
+    /* position: absolute; */
+}
+.imageq{
+    margin: 5px black;
+    background-image: url(../assects/ourworldimg17.jpg);
+    height: 100%;
+    width: 24%;
+    background-position: center;
+}
+.imager{
+    border: 5px black;
+    background-image: url(../assects/ourworldimg18.jpg);
+    height: 100%;
+    width: 24%;
+    background-position: center;
+}
+.images{
+    border: 5px black;
+    background-image: url(../assects/ourworldimg19.jpg);
+    height: 100%;
+    width: 24%;
+    background-position: center;
+}
+.imaget{
+    border: 5px black;
+    background-image: url(../assects/ourworldimg20.jpeg);
+    height: 100%;
+    width: 24%;
+    background-position: center;
+}
+
+.container5{
+    /* border: 4px solid blue;   */
+    margin-top: 5px black; 
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: hidden;
+}
+/* .text1{
+    border: 4px solid black;
+    background: black;
+    height: 99%;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 70%;
+    font-family: 'Times New Roman', Times, serif; 
+    align-items:flex-start;
+    justify-content: start;
+}
+.text2{
+    border: 4px solid black;
+    background: black;
+    height: 99%;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 70%;
+    font-family: 'Times New Roman', Times, serif; 
+    align-items: flex-start;
+    justify-content: start;
+}
+.text3{
+    border: 4px solid black;
+    background: black;
+    height: 99%;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 70%;
+    font-family: 'Times New Roman', Times, serif; 
+    align-items:flex-start;
+    justify-content: start;
+}
+.text4{
+    border: 4px solid black;
+    background: black;
+    height: 99%;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 70%;
+    font-family: 'Times New Roman', Times, serif; 
+    align-items: flex-start;
+    justify-content: start;
+} */
+
+.row6{
+    /* border: 5px solid red; */
+    display: flex;
+    height: 30vh;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-around;
+    /* position: absolute; */
+}
+.imageu{
+    margin: 5px black;
+    background-image: url(../assects/ourworldimg21.jpg);
+    height: 100%;
+    width: 24%;
+    background-position: center;
+}
+.imagev{
+    border: 5px black;
+    background-image: url(../assects/ourworldimg22.jpg);
+    height: 100%;
+    width: 24%;
+    background-position: center;
+}
+.imagew{
+    border: 5px black;
+    background-image: url(../assects/ourworldimg23.jpg);
+    height: 100%;
+    width: 24%;
+    background-position: center;
+}
+.imagex{
+    border: 5px black;
+    background-image: url(../assects/ourworldimg24.jpg);
+    height: 100%;
+    width: 24%;
+    background-position: center;
+}
+
+.container6{
+    /* border: 4px solid blue;   */
+    margin-top: 5px black; 
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: hidden;
+}
+/* .text1{
+    border: 4px solid black;
+    background: black;
+    height: 99%;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 70%;
+    font-family: 'Times New Roman', Times, serif; 
+    align-items:flex-start;
+    justify-content: start;
+}
+.text2{
+    border: 4px solid black;
+    background: black;
+    height: 99%;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 70%;
+    font-family: 'Times New Roman', Times, serif; 
+    align-items: flex-start;
+    justify-content: start;
+}
+.text3{
+    border: 4px solid black;
+    background: black;
+    height: 99%;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 70%;
+    font-family: 'Times New Roman', Times, serif; 
+    align-items:flex-start;
+    justify-content: start;
+}
+.text4{
+    border: 4px solid black;
+    background: black;
+    height: 99%;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 70%;
+    font-family: 'Times New Roman', Times, serif; 
+    align-items: flex-start;
+    justify-content: start;
+} */
+
+
+
+.row7{
+    /* border: 5px solid red; */
+    display: flex;
+    height: 30vh;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: start;
+    /* position: absolute; */
+}
+.imagey{
+    margin: 5px black;
+    background-image: url(../assects/ourworldimg25.jpg);
+    height: 100%;
+    width: 24%;
+    background-position: center;
+    align-items: flex-start;
+}
+
+.container7{
+    /* border: 4px solid blue;   */
+    margin-top: 5px black; 
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    overflow: hidden;
+}
+/* .text1{
+    border: 20px solid black;
+    background: black;
+    height: 99%;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 70%;
+    font-family: 'Times New Roman', Times, serif; 
+    align-items:flex-start;
+    justify-content: start;
+} */
+
+
+/* FOOTER SECTION */
+.footer{
+    /* border: 4px solid purple; */
+    /* margin-top: 50px; */
+    padding: auto;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color:white;
+    font-size: 25px;
+    /* position: relative; */
+    /* position:sticky; */
+    background-color: #161f1e; ;
+    /* background-position-y: top; */
+}
+.part-1{
+    margin-top: 10%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+   
+}
+.part-2{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.part-3{
+    margin-top: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerlogo{
+     margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
